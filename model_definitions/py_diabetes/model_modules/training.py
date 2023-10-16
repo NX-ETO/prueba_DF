@@ -21,13 +21,13 @@ def train(context: ModelContext, **kwargs):
     model = DecisionForest(data=train_df,
                             input_columns = feature_names, 
                             response_column = target_name, 
-                            max_depth = context.hyperparams["max_depth"], 
-                            num_trees = context.hyperparams["num_trees"], 
-                            min_node_size = context.hyperparams["min_node_size"], 
-                            mtry = context.hyperparams["mtry"], 
-                            mtry_seed = context.hyperparams["mtry_seed"], 
-                            seed = context.hyperparams["seed"], 
-                            tree_type = context.hyperparams["tree_type"])
+                            max_depth = 12, 
+                            num_trees = 4, 
+                            min_node_size = 1, 
+                            mtry = 3, 
+                            mtry_seed = 1, 
+                            seed = , 
+                            tree_type = 'REGRESSION')
     
     model.result.to_sql(f"model_${context.model_version}", if_exists="replace")    
     print("Saved trained model")
