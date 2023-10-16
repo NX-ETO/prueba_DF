@@ -26,7 +26,7 @@ def train(context: ModelContext, **kwargs):
                             min_node_size = 1, 
                             mtry = 3, 
                             mtry_seed = 1, 
-                            seed = , 
+                            seed = 1, 
                             tree_type = 'REGRESSION')
     
     model.result.to_sql(f"model_${context.model_version}", if_exists="replace")    
