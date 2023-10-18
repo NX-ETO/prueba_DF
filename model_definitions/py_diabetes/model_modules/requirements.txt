@@ -8,3 +8,4 @@ nyoka==4.3.0
 aoa==7.0.1
 SQLAlchemy==1.4.46
 pytz==2023.3
+tzdata==2023.3
