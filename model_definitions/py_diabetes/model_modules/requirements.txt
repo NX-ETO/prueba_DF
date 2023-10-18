@@ -28,3 +28,4 @@ teradatasql==17.10.0.11
 httpx==0.22.0
 requests==2.25.1
 psutil==5.9.6
+lxml==4.9.3
