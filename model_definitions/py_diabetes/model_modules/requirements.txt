@@ -10,3 +10,4 @@ SQLAlchemy==1.4.46
 pytz==2023.3
 tzdata==2023.3
 scipy==1.11.3
+threadpoolctl==3.2.0
