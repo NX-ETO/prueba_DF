@@ -7,3 +7,4 @@ teradataml==17.20.0.4
 nyoka==4.3.0
 aoa==7.0.1
 SQLAlchemy==1.4.46
+pytz==2023.3
