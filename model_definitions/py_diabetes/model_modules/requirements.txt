@@ -16,3 +16,4 @@ slicer==0.0.7
 cloudpickle==3.0.0
 packaging==23.2
 tqdm==4.66.1
+numba==0.58.1
