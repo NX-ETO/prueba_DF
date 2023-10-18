@@ -18,3 +18,4 @@ packaging==23.2
 tqdm==4.66.1
 numba==0.58.1
 cycler==0.12.1
+fonttools==4.43.1
