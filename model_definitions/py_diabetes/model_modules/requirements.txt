@@ -30,3 +30,4 @@ requests==2.25.1
 psutil==5.9.6
 lxml==4.9.3
 gitpython==3.1.18
+cryptography==3.4.8
