@@ -27,7 +27,7 @@ def train(context: ModelContext, **kwargs):
                             mtry = 3, 
                             mtry_seed = 1, 
                             seed = 1, 
-                            tree_type = 'REGRESSION')
+                            tree_type = 'CLASSIFICATION')
     
     model.result.to_sql(f"model_${context.model_version}", if_exists="replace")    
     print("Saved trained model")
